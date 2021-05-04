@@ -1,0 +1,73 @@
+body{
+    overflow-x: hidden;
+}
+*{
+    scroll-behavior: smooth;
+}
+
+
+.navbar{
+    background-color: #212329;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+.navbar-brand{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.nav-item{
+    font-size: 1.2rem;
+}
+
+
+
+.title_area{
+    background: #212329;
+    padding: 12% 0%;
+}
+ .title_img{ 
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.desc{
+    color: #fff;
+    font-size: larger;
+    text-align: justify;
+    padding: 4% 5% 0% 5%;
+}
+strong{
+    font-weight: 800;
+}
+
+#about{
+    height: 10%;
+}
+.about{
+    margin: 5%;
+}
+
+.contact-area{
+    background-color: #212329;
+    padding: 4%;
+}
+.card{
+    width: fit-content;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 5%;
+}
+.card-title{
+    font-size: 2.5rem;
+    font-weight: 900;
+    padding-bottom: 10%;
+}
+.card-text{
+    font-size: 1.3rem;
+    padding-top: 5%;
+}
+hr{
+    background-color: rgb(5, 1, 1);
+}
